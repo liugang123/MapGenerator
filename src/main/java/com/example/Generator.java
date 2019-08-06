@@ -25,7 +25,7 @@ public class Generator {
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
         // 配置文件
-        File configFile = new File("/config/user/generatorConfig.xml");
+        File configFile = new File("config/user/generator.config.xml");
         // 配置解析器
         ConfigurationParser configParser = new ConfigurationParser(warnings);
         // 配置信息
